@@ -16,7 +16,7 @@ Prerequisites
 Node.js
 PHP
 Composer
-MySQL
+postgres
 Steps
 Clone the Repository:
 
@@ -33,7 +33,7 @@ composer install
 npm install
 Set Up the Database:
 
-Create a new MySQL database.
+Create a new postgres database.
 Update the .env file with your database credentials.
 Run the migrations:
 Copy
